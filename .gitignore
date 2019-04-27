@@ -102,3 +102,9 @@ venv.bak/
 
 # mypy
 .mypy_cache/
+
+# carousel
+.idea/
+
+node_modules/
+package-lock.json
