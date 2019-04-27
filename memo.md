@@ -28,7 +28,27 @@ Leaflet
 Google Sheet
 ----
 * [Google Sheets APIでセルの値を読み込む方法](https://qiita.com/howdy39/items/5473160c93030c386c2d)
+* [Google Sheets API v4を適当に叩いて適当にデータをJSONで取得する](http://taiki-t.hatenablog.com/entry/2016/10/14/031124)
 
+
+#### Google Sheets API v4 
+
+* [Acquiring and using an API key ](https://developers.google.com/sheets/api/guides/authorizing#APIKey)
+* [Google Sheets API v4を適当に叩いて適当にデータをJSONで取得する](http://taiki-t.hatenablog.com/entry/2016/10/14/031124)
+
+API Keyを取得
+---
+1. [Google Cloud Platform](https://console.developers.google.com/apis/credentials)
+2. プロジェクト名が〜」とか言われたらなんか入れる
+3.左のメニューから「認証情報」をクリック
+4. 右側の画面内「認証情報を作成」をクリック
+5. 「APIキー」をクリック
+6.  画面に表示されたら作成されたAPIキーの「キー」をコピー
+
+
+    https://sheets.googleapis.com/v4/spreadsheets/{spreadsheet_id}/values/range=image!A1:B1?key={API KEY}
+
+    rangeは、シート名とセルを指定。例) Sheet1!A1:B1
 
 ----
 
