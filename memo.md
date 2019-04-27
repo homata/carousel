@@ -8,9 +8,10 @@
 
 #### common
 
-*[「GIS実習オープン教材」](https://gis-oer.github.io/gitbook/book/)
+* [「GIS実習オープン教材」](https://gis-oer.github.io/gitbook/book/)
+    - [Leaflet入門](https://gis-oer.github.io/gitbook/book/materials/web_gis/Leaflet/Leaflet.html)
 
-
+----
 
 Leaflet
 ----
@@ -22,9 +23,14 @@ Leaflet
 * [地図ライブラリ「Leaflet」にcluster機能を追加する](https://qiita.com/mitch0807/items/52698a561d4255578657)
 * [自作地図: leafletで使えるおすすめプラグインまとめ](https://qiita.com/pokohide/items/6329f1f92253ced23599)
 
+----
+
 Google Sheet
 ----
 * [Google Sheets APIでセルの値を読み込む方法](https://qiita.com/howdy39/items/5473160c93030c386c2d)
+
+
+----
 
 メモ
 -----
