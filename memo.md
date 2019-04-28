@@ -115,3 +115,4 @@ API Keyを取得
 * [国土地理院 地図・空中写真閲覧サービス（旧・国土変遷アーカイブ 空中写真閲覧システム）](http://mapps.gsi.go.jp/maplibSearch.do)
 * [ジャパンサーチ](https://jpsearch.go.jp/)
 * [デジタルアーカイブ学会](http://digitalarchivejapan.org/)
+* [日本アーカイブズ学会](http://www.jsas.info/)
