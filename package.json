@@ -10,6 +10,7 @@
   "dependencies": {
     "http-server": "^0.11.1",
     "leaflet": "^1.4.0",
-    "leaflet.markercluster": "^1.4.1"
+    "leaflet.markercluster": "^1.4.1",
+    "timelinejs3": "^3.4.0"
   }
 }

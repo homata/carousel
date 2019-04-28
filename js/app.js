@@ -69,30 +69,39 @@ L.control.layers(maps).addTo(map);
 L.control.scale({imperial: false}).addTo(map);
 
 var pointdata = [
-    { "coordinates": [ 139.73025667682498, 35.684728657838271 ] , "url": "images/img0.jpg", "caption": "日本の写真0" },
-    { "coordinates": [ 139.7404818862039, 35.630246376589362 ] , "url": "images/img0.jpg", "caption": "日本の写真1" },
-    { "coordinates": [ 139.77705667359774, 35.713791961149241 ] , "url": "images/img0.jpg", "caption": "日本の写真2" },
-    { "coordinates": [ 139.76722474150262, 35.68153424228494 ] , "url": "images/img0.jpg", "caption": "日本の写真3" },
-    { "coordinates": [ 139.7001709646139, 35.690318577295173 ] , "url": "images/img0.jpg", "caption": "日本の写真4" }
+    { "coordinates": [ 139.73025667682498, 35.684728657838271 ] , "thumbnail": "images/img0.jpg", "video": "https://www.youtube.com/embed/0az0t4uJI9M", "caption": "日本の動画0" },
+    { "coordinates": [ 139.7404818862039, 35.630246376589362 ] ,  "thumbnail": "images/img0.jpg", "video": "https://www.youtube.com/embed/Hs00WwMtl2s", "caption": "日本の動画1" },
+    { "coordinates": [ 139.77705667359774, 35.713791961149241 ] , "thumbnail": "images/img0.jpg", "image": "images/img0.jpg", "caption": "日本の写真2" },
+    { "coordinates": [ 139.76722474150262, 35.68153424228494 ] ,  "thumbnail": "images/img0.jpg", "image": "images/img0.jpg", "caption": "日本の写真3" },
+    { "coordinates": [ 139.7001709646139, 35.690318577295173 ] ,  "thumbnail": "images/img0.jpg", "image": "images/img0.jpg", "caption": "日本の写真4" }
 ];
+
 
 var photoLayer = L.photo.cluster().on('click', function (evt) {
     var photo = evt.layer.photo;
-    var template = '<img src="{url}" width="300" height="auto"/></a><p>{caption}</p>';
+    var template = null;
+    if (photo.video) {
+        //template = '<video autoplay controls poster="{url}"><source src="{video}" type="video/mp4"/></video>';
+        template = '<iframe width="300" src="{video}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>';
+    } else {
+        template = '<img src="{image}" width="300" height="auto"/></a><p>{caption}</p>';
+    }
     evt.layer.bindPopup(L.Util.template(template, photo), {
         className: 'leaflet-popup-photo',
-        minWidth: 100
+        minWidth: 300
     }).openPopup();
 });
+
 
 var photos = [];
 for (var ii=0; ii<pointdata.length; ii++) {
     photos.push({
         lat: pointdata[ii]["coordinates"][1],
         lng: pointdata[ii]["coordinates"][0],
-        url: pointdata[ii]["url"],
         caption: pointdata[ii]["caption"],
-        thumbnail: pointdata[ii]["url"],
+        thumbnail: pointdata[ii]["thumbnail"],
+        video: pointdata[ii]["video"],
+        image: pointdata[ii]["image"],
     });
 }
 photoLayer.add(photos).addTo(map);
