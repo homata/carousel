@@ -105,3 +105,13 @@ API Keyを取得
     - [NUKnightLab/juxtapose](https://github.com/NUKnightLab/juxtapose)
 * [Soundcite](http://soundcite.knightlab.com/)
     - [NUKnightLab/soundcite](https://github.com/NUKnightLab/soundcite)
+    
+    
+デジタルアーカイブ
+---
+* [Wikipedia - デジタルアーカイブ](https://ja.wikipedia.org/wiki/デジタルアーカイブ]
+* [国立国会図書館デジタルコレクション](http://dl.ndl.go.jp/)
+* [NHKアーカイブス](https://www.nhk.or.jp/archives/index.html)
+* [国土地理院 地図・空中写真閲覧サービス（旧・国土変遷アーカイブ 空中写真閲覧システム）](http://mapps.gsi.go.jp/maplibSearch.do)
+* [ジャパンサーチ](https://jpsearch.go.jp/)
+* [デジタルアーカイブ学会](http://digitalarchivejapan.org/)
