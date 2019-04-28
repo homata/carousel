@@ -78,28 +78,30 @@ API Keyを取得
     　or
     $(npm bin)/http-server -p 8000
 
- 参考
- ----
- 
- * [Open source SNS engine -  Flockbird](https://demo.flockbird.uzura.work/)
+参考
+----
+* [Historypin](https://www.historypin.org/en/)
+* [Open source SNS engine -  Flockbird](https://demo.flockbird.uzura.work/)
     - [uzura8/flockbird](https://github.com/uzura8/flockbird)
- * [okfn/csv.js](https://github.com/okfn/csv.js)
- * [okfn/timemapper](https://github.com/okfn/timemapper)
-    - [demo](https://timemapper.okfnlabs.org/)
-    - [[DEPRECATED] okfn/timeliner](https://github.com/okfn/timeliner)
- * [ReclineJS](http://okfnlabs.org/recline/)
-    - [okfn/recline](https://github.com/okfn/recline)
+* [okfn/csv.js](https://github.com/okfn/csv.js)
+
+### OKFN & NUKnightLab
 * [NUKnightLab](https://knightlab.northwestern.edu/community/)
     - [GitHub](https://github.com/NUKnightLab/)
- * [TimelineJS](https://timeline.knightlab.com/)
+* [okfn/timemapper](https://github.com/okfn/timemapper)
+    - [demo](https://timemapper.okfnlabs.org/)
+    - [[DEPRECATED] okfn/timeliner](https://github.com/okfn/timeliner)
+* [ReclineJS](http://okfnlabs.org/recline/)
+    - [okfn/recline](https://github.com/okfn/recline)
+* [TimelineJS](https://timeline.knightlab.com/)
     - [NUKnightLab/TimelineJS3](https://github.com/NUKnightLab/TimelineJS3)
     - [お手軽Linked Open Data可視化ツールSPARQL Timeliner ](https://www.slideshare.net/uedayou/linked-open-datasparql-timeliner)
     - [SparqlEPCU](http://lodcu6.isc.chubu.ac.jp/SparqlEPCU/)
     - [SPARQL Timeliner](http://uedayou.net/SPARQLTimeliner/)
-  
- * [StoryMapJS](https://storymap.knightlab.com/)
+
+* [StoryMapJS](https://storymap.knightlab.com/)
     - [NUKnightLab/StoryMapJS](https://github.com/NUKnightLab/StoryMapJS)
- * [JuxtaposeJS](https://juxtapose.knightlab.com/)
+* [JuxtaposeJS](https://juxtapose.knightlab.com/)
     - [NUKnightLab/juxtapose](https://github.com/NUKnightLab/juxtapose)
- * [Soundcite](http://soundcite.knightlab.com/)
+* [Soundcite](http://soundcite.knightlab.com/)
     - [NUKnightLab/soundcite](https://github.com/NUKnightLab/soundcite)
