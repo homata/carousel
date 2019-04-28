@@ -80,7 +80,6 @@ API Keyを取得
 
 参考
 ----
-* [Historypin](https://www.historypin.org/en/)
 * [Open source SNS engine -  Flockbird](https://demo.flockbird.uzura.work/)
     - [uzura8/flockbird](https://github.com/uzura8/flockbird)
 * [okfn/csv.js](https://github.com/okfn/csv.js)
@@ -116,3 +115,15 @@ API Keyを取得
 * [ジャパンサーチ](https://jpsearch.go.jp/)
 * [デジタルアーカイブ学会](http://digitalarchivejapan.org/)
 * [日本アーカイブズ学会](http://www.jsas.info/)
+
+* [Historypin](https://www.historypin.org/en/)
+* [ハウモリ](https://howmori.org/)
+    - [キロク乃キオク](https://kirokio.howmori.org/)
+    - [GitHub](https://github.com/howml)
+    - [localwiki](https://ja.localwiki.org/mori/)
+* [渡邉英徳](https://ja.wikipedia.org/wiki/渡邉英徳)
+    - [GitHub](https://github.com/hwtnv)
+    - [ヒロシマ・アーカイブ](http://hiroshima.mapping.jp/index_jp.html)
+    - [沖縄平和学習アーカイブ](http://okinawa.mapping.jp/)
+    - [東京五輪アーカイブ 1964-2020](http://1964.mapping.jp/)
+    - [「記憶の解凍」：白黒写真のニューラルネットワークによる自動色付け](https://www.huffingtonpost.jp/hidenori-watanave/memory-photos_a_23411943/)
